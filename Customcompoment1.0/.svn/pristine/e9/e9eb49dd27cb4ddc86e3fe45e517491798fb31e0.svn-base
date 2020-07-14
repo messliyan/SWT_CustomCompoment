@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Fiowlayout
+Bundle-SymbolicName: org.eclipse.swt.examples.customcompoment.fiowlayout;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ com.vogella.customwidgets.core
+Automatic-Module-Name: org.eclipse.swt.examples.customcompoment.fiowlayout
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: lib/commons-lang-2.5.jar,
+ .

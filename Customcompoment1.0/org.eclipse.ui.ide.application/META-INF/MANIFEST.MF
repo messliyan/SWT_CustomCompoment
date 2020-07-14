@@ -1,0 +1,239 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.ui.ide.application
+Bundle-SymbolicName: org.eclipse.ui.ide.application;singleton:=true
+Built-By: genie.releng
+Require-Bundle: org.eclipse.ui.ide;bundle-version="[3.6.0,4.0.0)",
+ org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.core.resources;bundle-version="[3.2.0,4.0.0)",
+ org.eclipse.ui;bundle-version="[3.6.0,4.0.0)",
+ org.eclipse.ui.navigator.resources;bundle-version="[3.4.0,4.0.0)",
+ org.eclipse.core.net;bundle-version="[1.0.0,2.0.0)",
+ org.eclipse.core.filesystem;bundle-version="1.3.0",
+ org.eclipse.e4.ui.workbench,
+ org.eclipse.e4.ui.model.workbench,
+ org.eclipse.e4.core.di,
+ org.eclipse.e4.core.di.extensions,
+ org.eclipse.osgi.services,
+ org.eclipse.e4.core.services;bundle-version="2.0.0",
+ org.eclipse.e4.core.contexts;bundle-version="[1.3.100,2.0.0)",
+ org.eclipse.swt.examples.customcompoment.fiowlayout;bundle-version="1.0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/platfo
+ rm/eclipse.platform.ui.git;path="bundles/org.eclipse.ui.ide.applicati
+ on";tag="I20180416-2000";commitId=ced5991fefc41a4c3f771fceadde7b7b0ca
+ df99e
+Bundle-Vendor: %Plugin.providerName
+Import-Package: com.ibm.icu.text,
+ javax.inject;version="1.0.0"
+Export-Package: org.eclipse.ui.internal.ide.application;x-internal:=tr
+ ue,org.eclipse.ui.internal.ide.application.addons;x-internal:=true,or
+ g.eclipse.ui.internal.ide.application.dialogs;x-internal:=true
+Bundle-Name: %Plugin.name
+Bundle-Version: 1.2.100.v20180416-2050
+Bundle-Localization: plugin
+Bundle-ClassPath: .
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_162
+
+Name: plugin.xml
+SHA-256-Digest: tkP1NhtZRYzkrwy59XIPJ/EC2NjPeCVh1iRajv+PfyA=
+
+Name: icons/full/elcl16/usearch_obj@2x.png
+SHA-256-Digest: Cw5ieizzmvl8qAx//091N4Q9lnakMiYJYLy280BanxE=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchWindowAdviso
+ r.class
+SHA-256-Digest: NjFglgk/095r8HEOmPie730tiRF3Sbf2sAE3HTQXQ7s=
+
+Name: org/eclipse/ui/internal/ide/application/IDEIdleHelper.class
+SHA-256-Digest: XoS0O2FGy/R1y7b11JcTPmwZcojmSqb+auv93lWgkE0=
+
+Name: icons/full/eview16/resource_persp.gif
+SHA-256-Digest: TV6QAhTcfwUkNq+LbAZTgsO04ROT1oF64P8nAoPsJZA=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchWindowAdviso
+ r$5.class
+SHA-256-Digest: kvodIUI1/aDJodMMRPqroWdJ5o71EM5U/jX08Hg4p8g=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchAdvisor$5.cl
+ ass
+SHA-256-Digest: ZQ3qsQ+hlZn1Howb/1uQxV2IM69vZRCfWt10bcJ4bv8=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchAdvisor.clas
+ s
+SHA-256-Digest: UYckLCwfQCHL/fzoG9/+eGE9H8julkU/JpvjE3+hxRM=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchAdvisor$Canc
+ elableProgressMonitorWrapper.class
+SHA-256-Digest: mCAqfFd3KqbKHE4oLUkOg5Nkd6HWErO36qkwEv4bKJQ=
+
+Name: icons/full/dlcl16/configs.png
+SHA-256-Digest: 6oHD5x/CwAyeIoVqKf0FBNrvbr0eKSlR5qb3GLkClD8=
+
+Name: org/eclipse/ui/internal/ide/application/IDEIdleHelper$3.class
+SHA-256-Digest: oASmdq3CoYSFX/IOrY9Deh4YENp/yiDc8d3uIbVG92I=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchWindowAdviso
+ r$2.class
+SHA-256-Digest: 2qpkRhg6/l5vcfrVZGsNmeMIBa4/hTg9z3YTu/Zpzq4=
+
+Name: org/eclipse/ui/internal/ide/application/dialogs/RecentWorkspaces
+ PreferencePage.class
+SHA-256-Digest: y6LpxCPZN8xD3EopTnHzLo3IGBhSfP/8V63fJfXdv7I=
+
+Name: plugin.properties
+SHA-256-Digest: gLXubhdsg89VA6Tsy+KKGt3NSlDSyZC+hZ9kX9Ddo2E=
+
+Name: icons/full/elcl16/configs.png
+SHA-256-Digest: 5uSxyy9IYfs2cFP8xpzkUHQDjrB7xTdUTGzP7kMgbqA=
+
+Name: org/eclipse/ui/internal/ide/application/DelayedEventsProcessor$1
+ .class
+SHA-256-Digest: NJSJvoI+2/6yuPZwHF0OdcQmfGOlYkW/Wa38VzQGst8=
+
+Name: org/eclipse/ui/internal/ide/application/addons/ModelCleanupAddon
+ $1.class
+SHA-256-Digest: ZQN8SsEleIpwY0HlY6qwYw6UDfil9Lu+j8AMl6gi0EY=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchAdvisor$4.cl
+ ass
+SHA-256-Digest: z7ZQCktudwB2MoflAMkef7ngW3ooGpyyR9zB70HPDxE=
+
+Name: icons/full/dview16/resource_persp@2x.png
+SHA-256-Digest: ormdETugAJ1C8hk9jImgIObHz6mmpljaR3Q/jl0jUfA=
+
+Name: icons/full/elcl16/split_vertical.png
+SHA-256-Digest: O5Qah+5deI8zfZ/vzjYO5ZpXa7AbP39hKgNrRM88gHg=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchWindowAdviso
+ r$4.class
+SHA-256-Digest: KsMuhXhHBhdPfNDBRn+s9KkQtRMUlNLQesjuKLDxYUc=
+
+Name: .api_description
+SHA-256-Digest: fgyVTD5avQkWGBj1c7uMxWLrz+SZa00aT4c72cow/t0=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchWindowAdviso
+ r$1.class
+SHA-256-Digest: BoYwj4QHtUw/w4sB2T1OT6S8fLhOoB6I9B7pIUCaqpE=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchAdvisor$1.cl
+ ass
+SHA-256-Digest: B0IALq9bvwLGVzrW2Nq/iAyMdJEIxRJLPgIv+uCFq70=
+
+Name: org/eclipse/ui/internal/ide/application/dialogs/RecentWorkspaces
+ PreferencePage$2.class
+SHA-256-Digest: uMezagdmpi/KXVFXG/oaWPE2I6WQr2NaEC0umglNvds=
+
+Name: org/eclipse/ui/internal/ide/application/IDEApplication.class
+SHA-256-Digest: MfB39csk4/Gf1XWNeD2pefxeBV7SR10EvkxPbrJBtoc=
+
+Name: org/eclipse/ui/internal/ide/application/IDEIdleHelper$1.class
+SHA-256-Digest: reEZ2XWPo9bVinxUxGoCwNRu22cI3sBNu3mlQAJ3u44=
+
+Name: icons/full/dlcl16/usearch_obj.png
+SHA-256-Digest: LJOWSKUIQD2xdloeQgp+0aIpDadtqHgNfLX/6kX+gt0=
+
+Name: icons/full/dlcl16/usearch_obj@2x.png
+SHA-256-Digest: rKF+cxobzlBG7lpP7/rgalJXdySJxbmSUqgYIekoWNk=
+
+Name: org/eclipse/ui/internal/ide/application/IDEIdleHelper$4.class
+SHA-256-Digest: 93c0PsCmhp1UmgUDUhXzXtSO5WctDAMsipD81kKX6nc=
+
+Name: icons/full/elcl16/configs.gif
+SHA-256-Digest: uzpkI0jA7qDYkeikHaCUkVVeWOGmP9ZoEO8gmYx6Ti8=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchAdvisor$Canc
+ elableProgressMonitorJobsDialog.class
+SHA-256-Digest: rMdK11NQniRM2SloHDEiTK1Up0D5S2KgXSybYf4Ca5A=
+
+Name: org/eclipse/ui/internal/ide/application/dialogs/IDEStartupPrefer
+ encePage.class
+SHA-256-Digest: l7rKSZXCghBze1sbGBlZDn7cgOVQtSPvB0l6iKY9xF4=
+
+Name: org/eclipse/ui/internal/ide/application/dialogs/RecentWorkspaces
+ PreferencePage$3.class
+SHA-256-Digest: P5r4arcaHOzOy+Mmbc3CjdHhL+jIxsr7HAVKq5FUpY0=
+
+Name: icons/full/elcl16/split_vertical@2x.png
+SHA-256-Digest: VzzEO4bVwZJGvT+Cs0ehKY8RQMRXQ3Y3i8kWThpNtf4=
+
+Name: org/eclipse/ui/internal/ide/application/IDEApplication$1.class
+SHA-256-Digest: DW3K/qICMUjmf2nak4i6HUX4Wjp4TLuMcGSX/XkGTHQ=
+
+Name: icons/full/elcl16/usearch_obj.gif
+SHA-256-Digest: 7SfiBYm4JWXNXiuE7nY5uuUSR89dTtK7Rn5ROC8KlbY=
+
+Name: LegacyIDE_fragment.e4xmi
+SHA-256-Digest: 2Kkom6ZAjsMD26bqCPqrnERJZv3STMXvztJdmRs7qFA=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchAdvisor$Canc
+ elableProgressMonitorJobsDialog$1.class
+SHA-256-Digest: gkH9HCow+nNpWdMElfGCFROcnLpD9lwU3XTy89flgYo=
+
+Name: org/eclipse/ui/internal/ide/application/FileLocationDetails.clas
+ s
+SHA-256-Digest: aigL/+YtXh1/lPQ7YgS8OkQMJov/S+IWWp8YkhpwN8U=
+
+Name: icons/full/elcl16/usearch_obj.png
+SHA-256-Digest: hZqVxS9u+0e/GrQxt8IIy/WmverG/Dp8tEUs2KzQJ58=
+
+Name: icons/full/dlcl16/configs@2x.png
+SHA-256-Digest: fbLzILoPpIVMwoO2lWGG86/odq6D/ThDCCVQ62IdDwQ=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchAdvisor$3.cl
+ ass
+SHA-256-Digest: tBGHdNo/BCjN5baTy+1spmXG3lJ/+mofhlfyeZSJ4vI=
+
+Name: org/eclipse/ui/internal/ide/application/addons/ModelCleanupAddon
+ .class
+SHA-256-Digest: ao8AWJlp6z8qJqs5vjVBtwJSdaXNBjJxfv3qsP6HPEM=
+
+Name: about.html
+SHA-256-Digest: 0RM1x9lTJa7T8YkysaegPuBIeaEvSZypRDfXoMpsJAU=
+
+Name: icons/full/eview16/resource_persp.png
+SHA-256-Digest: ZfJ5rCWIONg6TDrOzk04/QcelrM0YON2mielF7lu7zA=
+
+Name: org/eclipse/ui/internal/ide/application/IDEApplication$2.class
+SHA-256-Digest: iJkRSIjQl1Jp1+2/wlUMSkDxXq76je3pURRSd+1kWCc=
+
+Name: org/eclipse/ui/internal/ide/application/DelayedEventsProcessor.c
+ lass
+SHA-256-Digest: lN3FEwKShK760R4izpddisAZiONgrTOwD3Fb6q7u2tw=
+
+Name: org/eclipse/ui/internal/ide/application/dialogs/RecentWorkspaces
+ PreferencePage$1.class
+SHA-256-Digest: L8olOfq9z1FB4Z5RiPea2FBWxRQteBkPv9DoStRBfcI=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchAdvisor$2.cl
+ ass
+SHA-256-Digest: IEntOX4jq6Eev/TU1c3HEORCcvog0ZNXu8X0TwByjEo=
+
+Name: org/eclipse/ui/internal/ide/application/IDEIdleHelper$2.class
+SHA-256-Digest: t1lIN88a9tDfuAikApyTE7plMSaZrhOjp+dZieDEeVw=
+
+Name: icons/full/elcl16/split_horizontal.png
+SHA-256-Digest: IxSEXGp0kTWFT45wyweFlbh0g9Drz1ttK9H1srQJp9Y=
+
+Name: icons/full/eview16/resource_persp@2x.png
+SHA-256-Digest: 4CTrYYrvZJaJcjOuLEfPtCFD3n8tb4t8LlSNOMHA1zM=
+
+Name: org/eclipse/ui/internal/ide/application/IDEWorkbenchWindowAdviso
+ r$3.class
+SHA-256-Digest: 4dyeQbI9IEGVKO7/el/JCFdTwPAPsHOXkdce+Iyuyhc=
+
+Name: icons/full/dview16/resource_persp.png
+SHA-256-Digest: QPMrUhiYrgzSSwdGIDoo2sleZ/qE5Bk0anWFkS8rCiQ=
+
+Name: icons/full/elcl16/configs@2x.png
+SHA-256-Digest: tO1WLB4sIHSj5K1tf9NKnXnS9eiOVLHz0TjTf7338Ww=
+
+Name: org/eclipse/ui/internal/ide/application/ResourcePerspective.clas
+ s
+SHA-256-Digest: ElzTLDFIkhDyXP1Uqf0sZYH5WrEXfFzwHZ1EYHZw7uE=
+
+Name: icons/full/elcl16/split_horizontal@2x.png
+SHA-256-Digest: PXdUv6qWgtZnl/iRZyNuWwHnJHJEJ8Rv29SRd+vPIMk=
+

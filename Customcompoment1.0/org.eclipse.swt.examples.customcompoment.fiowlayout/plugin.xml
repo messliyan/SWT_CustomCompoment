@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Sample Category"
+            id="org.eclipse.swt.examples.customcompoment.fiowlayout">
+      </category>
+      <view
+            category="org.eclipse.swt.examples.customcompoment.fiowlayout"
+            class="org.eclipse.swt.examples.customcompoment.fiowlayout.views.FlowCompomentView"
+            icon="icons/run.gif"
+            id="org.eclipse.swt.examples.customcompoment.fiowlayout.views.SampleView"
+            inject="true"
+            name="FlowCompomentView">
+      </view>
+      <view
+            category="org.eclipse.swt.examples.customcompoment.fiowlayout"
+            class="org.eclipse.swt.examples.customcompoment.fiowlayout.views.JoinPart"
+            icon="icons/run.gif"
+            id="org.eclipse.swt.examples.customcompoment.fiowlayout.view1"
+            name="JoinCompomentView"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>
